@@ -1,3 +1,60 @@
+# Weather Forecast App
+
+This is a simple weather forecast app built with React.js. It allows users to enter a city name and view the current weather details.
+
+## Features
+
+- Search for weather details by city name.
+- Display temperature, humidity, and wind speed.
+
+## Technologies Used
+
+- React.js
+- React Router
+- Material-UI
+
+## Installation
+
+1. Clone the repository to your local machine:
+
+<!-- ```bash
+git clone <repository-url> -->
+# Navigate to the project directory:
+
+cd weather-forecast-app
+Install dependencies:
+
+npm install
+Usage
+# Start the development server:
+
+npm start
+ # Open your browser and navigate to http://localhost:3000 to view the app.
+
+Enter a city name in the search bar and click "Get Weather" to view the weather details.
+
+API Key
+This app uses the OpenWeatherMap API to fetch weather data. You need to sign up for an API key here and replace <YOUR_API_KEY> in the fetchWeather function with your actual API key.
+
+# License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
+You can add this README.md file to the root directory of your project. Make sure to replace `<repository-url>` with the actual URL of your Git repository. Additionally, provide instructions for obtaining an API key and replace `<YOUR_API_KEY>` with the actual key in your code.
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
